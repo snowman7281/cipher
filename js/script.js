@@ -13,3 +13,13 @@ alert(thirdFunction);
 var fourthFunction = Math.floor(questionInput.length / 2);
 var index = questionInput.charAt(fourthFunction);
 alert(index.concat(questionInput);
+
+
+
+
+jQuery("img1").click(function() {
+  alert(questionInput);
+});
+jQuery("img2").click(function() {
+  alert(index);
+});
