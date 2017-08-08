@@ -16,10 +16,18 @@ alert(index.concat(questionInput);
 
 
 
+$(document).ready(function() {
 
-jQuery("img1").click(function() {
-  alert(questionInput);
-});
-jQuery("img2").click(function() {
-  alert(index);
+  $("h1").click(function(){
+    alert("this is the header.");
+  });
+
+  $("#img1").click(function(questionInput) {
+    alert("This is a the sentence you've entered.");
+  });
+
+  $("#img2").click(function(output) {
+    alert("This is a paragraph.");
+  });
+
 });
